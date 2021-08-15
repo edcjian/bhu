@@ -6,10 +6,10 @@ import {useReactive} from "ahooks";
 import OSS from "ali-oss";
 import request from "../request";
 export  const client =new OSS({
-    region: 'oss-cn-beijing',
-    accessKeyId: 'LTAI4GEFg8MqCaHmeH8eACh5',
-    accessKeySecret: 'c9AXiJT7AI7Y2glvaOrcxxtah3CACT',
-    bucket: 'edcjian',
+    region: '',
+    accessKeyId: '',
+    accessKeySecret: '',
+    bucket: '',
 })
 export const MyUpload = ({id,value,events}) => {
     const state = useReactive({

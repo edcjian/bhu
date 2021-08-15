@@ -1,0 +1,12 @@
+.myAction{
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  .icon{
+    display: flex;
+    width: 70px;
+    height: 30px;
+  }
+}

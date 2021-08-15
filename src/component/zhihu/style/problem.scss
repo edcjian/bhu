@@ -1,0 +1,29 @@
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .header{
+
+    flex-direction: column;
+    width: 1000px;
+    height: 200px;
+    margin-left: 150px;
+    .action{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+      border: 2px solid #bb8e40;
+      border-radius: 5px;
+      .item{
+        width: 100px;
+      }
+    }
+  }
+  .content{
+    flex-direction: column;
+    border: 2px solid #2bb321;
+    border-radius: 5px;
+    display: flex;
+   align-items: center;
+  }
+}

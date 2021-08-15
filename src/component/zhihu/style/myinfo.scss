@@ -1,0 +1,10 @@
+.info{
+  height: 600px;
+  width: 300px;
+  .tag{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+  }
+}

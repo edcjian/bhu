@@ -1,0 +1,18 @@
+.header{
+  border: 1px solid #ffdd00;
+  width: 1000px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  .avatar{
+    width: 160px;
+    height: 160px;
+    background: #fafafa;
+  border: 2px solid #eae1e1;
+    border-radius: 10px;
+  }
+  .intro{
+    height: 170px;
+    width: 170px;
+  }
+}

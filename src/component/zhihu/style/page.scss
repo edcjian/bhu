@@ -1,0 +1,11 @@
+.page{
+    display: flex;
+    border: 2px solid #cb7f0e;
+    border-radius: 5px;
+    width: 700px;
+    height: 240px;
+    justify-content: space-around;
+    flex-direction: column;
+    //display: flex;
+    //flex-direction: row;
+}
